@@ -3,8 +3,8 @@ import Header from './Header'
 import './App.css';
 import {BrowserRouter as Router, Route,Link} from 'react-router-dom'
 import MessageContent from './MessageContent';
- class Message extends Component {
-  render() {
+ const Message=()=> {
+
     return (
       <Router>
          <div style={{marginTop:'20px'}}>
@@ -27,7 +27,7 @@ import MessageContent from './MessageContent';
       </Router>
     )
   }
-}
+
 export default Message;
 
 
